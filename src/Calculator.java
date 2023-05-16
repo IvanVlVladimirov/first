@@ -13,7 +13,7 @@ public class Calculator extends JFrame {
         num1Field = new JTextField(10);
         add(num1Field);
 
-        addButton = new JButton("Събиране");
+        addButton = new JButton("СъбиранеEEEEE");
         add(addButton);
         addButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {

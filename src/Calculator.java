@@ -53,7 +53,7 @@ public class Calculator extends JFrame {
             }
         });
 
-        divideButton = new JButton("Делено");
+        divideButton = new JButton("/");
         add(divideButton);
         divideButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {

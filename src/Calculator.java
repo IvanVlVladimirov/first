@@ -13,7 +13,7 @@ public class Calculator extends JFrame {
         num1Field = new JTextField(10);
         add(num1Field);
 
-        addButton = new JButton("+");
+        addButton = new JButton("Събиране");
         add(addButton);
         addButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -27,7 +27,7 @@ public class Calculator extends JFrame {
         num2Field = new JTextField(10);
         add(num2Field);
 
-        subtractButton = new JButton("-");
+        subtractButton = new JButton("Изваждане");
         add(subtractButton);
         subtractButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -42,7 +42,7 @@ public class Calculator extends JFrame {
         resultField.setEditable(false);
         add(resultField);
 
-        multiplyButton = new JButton("*");
+        multiplyButton = new JButton("Умножение");
         add(multiplyButton);
         multiplyButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -53,7 +53,7 @@ public class Calculator extends JFrame {
             }
         });
 
-        divideButton = new JButton("/");
+        divideButton = new JButton("Деление");
         add(divideButton);
         divideButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
